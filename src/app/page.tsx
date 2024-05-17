@@ -1,6 +1,8 @@
 "use client";
 import dynamic from "next/dynamic";
 import Intro from "./intro/page";
+import About from "./about/page";
+import Profile from "./profile/page";
 import "@/app/globals.css";
 
 const DynamicMeteors = dynamic(
@@ -19,6 +21,8 @@ export default function Home() {
       </div>
       <div className="relative flex flex-col justify-center items-center">
         <Intro />
+        <About />
+        <Profile />
       </div>
     </>
   );
