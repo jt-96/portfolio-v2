@@ -3,6 +3,8 @@ import dynamic from "next/dynamic";
 import Intro from "./intro/page";
 import About from "./about/page";
 import Profile from "./profile/page";
+import Experience from "./experience/page";
+import Projects from "./projects/page";
 import "@/app/globals.css";
 
 const DynamicMeteors = dynamic(
@@ -23,6 +25,8 @@ export default function Home() {
         <Intro />
         <About />
         <Profile />
+        <Experience />
+        <Projects />
       </div>
     </>
   );
