@@ -15,7 +15,7 @@ function Profile() {
           ease: "easeInOut",
         }}
       >
-        <h2 className="text-3xl my-5">Profile</h2>
+        <h2 className="text-3xl my-5 text-center">Profile</h2>
         <InfiniteMovingCards
           items={frontStack}
           direction="left"
