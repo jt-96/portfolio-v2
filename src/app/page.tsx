@@ -6,6 +6,7 @@ import Profile from "./profile/page";
 import Experience from "./experience/page";
 import Projects from "./projects/page";
 import "@/app/globals.css";
+import Outro from "./outro/page";
 
 const DynamicMeteors = dynamic(
   () =>
@@ -27,6 +28,7 @@ export default function Home() {
         <Profile />
         <Experience />
         <Projects />
+        <Outro />
       </div>
     </>
   );
