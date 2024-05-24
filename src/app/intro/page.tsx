@@ -29,7 +29,7 @@ function Intro() {
     return () => {
       clearTimeout(timeout);
     };
-  }, [currentTitle]);
+  }, [currentTitle, titles]);
 
   return (
     <div className="h-screen flex flex-col justify-center">
@@ -41,7 +41,7 @@ function Intro() {
           transition={variants.showTitle.transition}
         >
           <h1 className="text-2xl text-center md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-7xl">
-            Hi, I'm Jonathan Torrico
+            Hi, I&apos;m Jonathan Torrico
           </h1>
         </motion.div>
         <AnimatePresence mode="wait">
