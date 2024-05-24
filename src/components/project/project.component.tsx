@@ -19,7 +19,12 @@ function ProjectComponent({ myProject }: Props) {
     >
       <div className="my-2 mx-5 lg:flex justify-center">
         <div className="flex justify-center items-center align-center p-5 lg:w-1/2 xl:w-1/3 2xl:w-1/4">
-          <Image src={myProject.imageSrc} alt="Kilometro 12 Landing Page" />
+          <Image
+            src={myProject.imageSrc}
+            alt="Kilometro 12 Landing Page"
+            width={500}
+            height={500}
+          />
         </div>
         <div className="flex flex-col mt-5 justify-center items-center lg:w-1/2 xl:w-1/3 2xl:w-1/4 md:justify-between">
           <h2 className="text-2xl mb-5">{myProject.title}</h2>
@@ -31,7 +36,7 @@ function ProjectComponent({ myProject }: Props) {
               {myProject.siteLink ? (
                 <Link href={myProject.siteLink}>
                   <Image
-                    src={SiteIcon}
+                    src="/site.svg"
                     alt="Visit Site Icon"
                     width={32}
                     height={32}
@@ -43,7 +48,7 @@ function ProjectComponent({ myProject }: Props) {
               {myProject.repoLink ? (
                 <Link href={myProject.repoLink}>
                   <Image
-                    src={GitHubIcon}
+                    src="/github.svg"
                     alt="Visit GitHub Repo"
                     width={32}
                     height={32}
