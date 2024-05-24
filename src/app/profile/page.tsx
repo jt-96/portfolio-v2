@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { InfiniteMovingCards } from "@/components/movingCards/cards.component";
 import { frontStack } from "@/models/front";
