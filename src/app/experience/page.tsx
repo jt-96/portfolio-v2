@@ -24,17 +24,18 @@ function Experience() {
           <div className="flex flex-col justify-center items-center align-center my-3 mx-5">
             <ul className="text-xl marker:text-slate-500">
               <li className="list-disc my-2">
-                Development of Cotibot, a quoutation engine web app for home
+                Development of Cotibot, a quotation engine web app for home
                 renovations.
               </li>
               <li className="list-disc my-2">
-                Development of several intracompany tools for process
+                Development of several intra-company tools for process
                 optimizations (data exporting, scrappers, renovation
                 management).
               </li>
               <li className="list-disc my-2">
                 Assigned with administrative tasks for project management,
-                reporting tickets status, supporting other members of tech team.
+                reporting tickets status, supporting other members of the tech
+                team.
               </li>
             </ul>
           </div>

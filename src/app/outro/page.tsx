@@ -19,7 +19,7 @@ function Outro() {
         >
           <div className="flex flex-col items-center justify-center grow">
             <h1 className="m-5 text-2xl md:text-3xl xl:text-4xl">
-              Let's talk.
+              Let&apos;s talk.
             </h1>
             <div className="flex flex-col items-center md:flex-row md:w-2/3 xl:w-full">
               <Link href="/Jonathan Torrico -  ENG CV.pdf" target="_blank">
