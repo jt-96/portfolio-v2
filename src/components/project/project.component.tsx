@@ -3,8 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Project } from "@/models/project.model";
 import { variants } from "@/models/anim";
-import SiteIcon from "@/assets/site.svg";
-import GitHubIcon from "@/assets/github.svg";
 
 type Props = {
   myProject: Project;
@@ -21,7 +19,7 @@ function ProjectComponent({ myProject }: Props) {
         <div className="flex justify-center items-center align-center p-5 lg:w-1/2 xl:w-1/3 2xl:w-1/4">
           <Image
             src={myProject.imageSrc}
-            alt="Kilometro 12 Landing Page"
+            alt={`${myProject.title} Project Image`}
             width={500}
             height={500}
           />
@@ -36,7 +34,7 @@ function ProjectComponent({ myProject }: Props) {
               {myProject.siteLink ? (
                 <Link href={myProject.siteLink}>
                   <Image
-                    src="/site.svg"
+                    src="/portfolio-v2/site.svg"
                     alt="Visit Site Icon"
                     width={32}
                     height={32}
@@ -48,7 +46,7 @@ function ProjectComponent({ myProject }: Props) {
               {myProject.repoLink ? (
                 <Link href={myProject.repoLink}>
                   <Image
-                    src="/github.svg"
+                    src="/portfolio-v2/github.svg"
                     alt="Visit GitHub Repo"
                     width={32}
                     height={32}

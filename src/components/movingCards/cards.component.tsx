@@ -96,7 +96,7 @@ export const InfiniteMovingCards = ({
             <blockquote className="flex flex-col items-center">
               <Image
                 src={item.icon}
-                alt="Tech Icon"
+                alt={`${item.name} Icon`}
                 width={64}
                 height={64}
                 color="#000000"

@@ -3,22 +3,22 @@ import { Tech } from "./tech.model";
 export const backStack: Tech[] = [
   {
     name: "NodeJS",
-    icon: "/nodejs.svg",
+    icon: "/portfolio-v2/nodejs.svg",
   },
   {
     name: "Express",
-    icon: "/express.svg",
+    icon: "/portfolio-v2/express.svg",
   },
   {
     name: "SQL",
-    icon: "/sql.svg",
+    icon: "/portfolio-v2/sql.svg",
   },
   {
     name: "PostgreSQL",
-    icon: "/postgresql.svg",
+    icon: "/portfolio-v2/postgresql.svg",
   },
   {
     name: "MongoDB",
-    icon: "/mongodb.svg",
+    icon: "/portfolio-v2/mongodb.svg",
   },
 ];

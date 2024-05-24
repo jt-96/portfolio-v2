@@ -23,7 +23,7 @@ function Outro() {
               <Link href="/Jonathan Torrico -  ENG CV.pdf" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src="/cv.svg"
+                    src="/portfolio-v2/cv.svg"
                     alt="Curriculum Vitae Logo"
                     width={64}
                     height={64}
@@ -38,7 +38,7 @@ function Outro() {
               >
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src="/linkedin.svg"
+                    src="/portfolio-v2/linkedin.svg"
                     alt="LinkedIn Logo"
                     width={64}
                     height={64}
@@ -50,7 +50,7 @@ function Outro() {
               <Link href="https://github.com/jt-96" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src="/github.svg"
+                    src="/portfolio-v2/github.svg"
                     alt="GitHub Logo"
                     width={64}
                     height={64}
