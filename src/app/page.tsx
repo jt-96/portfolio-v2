@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
-import About from "./about/page";
-import Experience from "./experience/page";
+import About from "@/app/about/page";
+import Experience from "@/app/experience/page";
 import "@/app/globals.css";
 
 const LazyMeteors = dynamic(
