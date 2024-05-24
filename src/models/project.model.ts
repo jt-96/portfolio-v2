@@ -1,8 +1,6 @@
-import { StaticImageData } from "next/image";
-
 export interface Project {
   id: number;
-  imageSrc: StaticImageData;
+  imageSrc: string;
   title: string;
   description: string;
   siteLink: string | null;
