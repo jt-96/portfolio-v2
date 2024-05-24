@@ -32,7 +32,7 @@ function Intro() {
 
   return (
     <div className="h-screen flex flex-col justify-center">
-      <div className="mb-96 2xl:mb-[35rem]">
+      <div className="mb-96 2xl:mb-[20rem]">
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
