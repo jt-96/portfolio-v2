@@ -23,17 +23,17 @@ function About() {
             I was always interested about computers & games since I was a kid,
             playing Enduro, Barnstorming on the Atari 2600 (which I found later
             in Black Ops Cold War, what a throwback!) later getting my hands on
-            my brother's PC playing MAME / Age of Empires 2 / Warcraft 3.
+            my brother&apos;s PC playing MAME / Age of Empires 2 / Warcraft 3.
           </p>
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
-            Later, I would start tinkering with that PC, even though it wasn't
-            mine, learning how to use Windows and its utilities and configs, the
-            motherboard BIOS, changing parts of that PC when it was gifted to
-            me.
+            Later, I would start tinkering with that PC, even though it
+            wasn&apos;t mine, learning how to use Windows and its utilities and
+            configs, the motherboard BIOS, changing parts of that PC when it was
+            gifted to me.
           </p>
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
-            Moving on, I got to build my own, a double core AMD A8, it wasn't
-            top of the line, but got the job done.
+            Moving on, I got to build my own, a double core AMD A8, it
+            wasn&apos;t top of the line, but got the job done.
           </p>
         </motion.div>
         <br />
@@ -43,9 +43,10 @@ function About() {
           transition={variants.showPara.transition}
         >
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
-            Considering what my parents would say 'obsession' about computers,
-            they told me to make something out of it, I thought well, maybe I
-            could study more about it in College, try to make a career of it.
+            Considering what my parents would say &lsquo;obsession&rsquo; about
+            computers, they told me to make something out of it, I thought well,
+            maybe I could study more about it in College, try to make a career
+            of it.
           </p>
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
             In College, I learned a lot from different branches of programming
