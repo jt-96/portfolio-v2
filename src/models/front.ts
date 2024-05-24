@@ -1,54 +1,44 @@
 import { Tech } from "./tech.model";
-import ReactIcon from "@/assets/react.svg";
-import HTMLIcon from "@/assets/html5.svg";
-import CSS3Icon from "@/assets/css3.svg";
-import JSIcon from "@/assets/js.svg";
-import TSIcon from "@/assets/ts.svg";
-import NextIcon from "@/assets/next.svg";
-import BootstrapIcon from "@/assets/bootstrap.svg";
-import MUIIcon from "@/assets/mui.svg";
-import TailwindIcon from "@/assets/tailwind.svg";
-import ReduxIcon from "@/assets/redux.svg";
 
 export const frontStack: Tech[] = [
   {
     name: "React",
-    icon: ReactIcon,
+    icon: "/react.svg",
   },
   {
     name: "HTML5",
-    icon: HTMLIcon,
+    icon: "/html5.svg",
   },
   {
     name: "CSS3",
-    icon: CSS3Icon,
+    icon: "/css3.svg",
   },
   {
     name: "JavaScript",
-    icon: JSIcon,
+    icon: "/js.svg",
   },
   {
     name: "TypeScript",
-    icon: TSIcon,
+    icon: "/ts.svg",
   },
   {
     name: "NextJS",
-    icon: NextIcon,
+    icon: "/next.svg",
   },
   {
     name: "Bootstrap",
-    icon: BootstrapIcon,
+    icon: "/bootstrap.svg",
   },
   {
     name: "Material UI",
-    icon: MUIIcon,
+    icon: "/mui.svg",
   },
   {
     name: "TailwindCSS",
-    icon: TailwindIcon,
+    icon: "/tailwind.svg",
   },
   {
     name: "Redux/Toolkit",
-    icon: ReduxIcon,
+    icon: "/redux.svg",
   },
 ];

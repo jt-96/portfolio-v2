@@ -1,29 +1,24 @@
 import { Tech } from "./tech.model";
-import NodeJSIcon from "@/assets/nodejs.svg";
-import ExpressIcon from "@/assets/express.svg";
-import MySQLIcon from "@/assets/sql.svg";
-import PostgreSQLIcon from "@/assets/postgresql.svg";
-import MongoDBIcon from "@/assets/mongodb.svg";
 
 export const backStack: Tech[] = [
   {
     name: "NodeJS",
-    icon: NodeJSIcon,
+    icon: "/nodejs.svg",
   },
   {
     name: "Express",
-    icon: ExpressIcon,
+    icon: "/express.svg",
   },
   {
     name: "SQL",
-    icon: MySQLIcon,
+    icon: "/sql.svg",
   },
   {
     name: "PostgreSQL",
-    icon: PostgreSQLIcon,
+    icon: "/postgresql.svg",
   },
   {
     name: "MongoDB",
-    icon: MongoDBIcon,
+    icon: "/mongodb.svg",
   },
 ];

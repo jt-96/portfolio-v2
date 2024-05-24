@@ -4,9 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { AuroraBackground } from "@/components/aurora/aurora.component";
 import { variants } from "@/models/anim";
-import LinkedInImage from "@/assets/linkedin.svg";
-import GitHubImage from "@/assets/github.svg";
-import CVImage from "@/assets/cv.svg";
 
 function Outro() {
   return (
@@ -26,7 +23,7 @@ function Outro() {
               <Link href="/Jonathan Torrico -  ENG CV.pdf" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src={CVImage}
+                    src="/cv.svg"
                     alt="Curriculum Vitae Logo"
                     width={64}
                     height={64}
@@ -41,7 +38,7 @@ function Outro() {
               >
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src={LinkedInImage}
+                    src="/linkedin.svg"
                     alt="LinkedIn Logo"
                     width={64}
                     height={64}
@@ -53,7 +50,7 @@ function Outro() {
               <Link href="https://github.com/jt-96" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
-                    src={GitHubImage}
+                    src="/github.svg"
                     alt="GitHub Logo"
                     width={64}
                     height={64}
