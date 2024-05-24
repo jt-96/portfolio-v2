@@ -3,38 +3,38 @@ import { Tech } from "./tech.model";
 export const others: Tech[] = [
   {
     name: "Netlify",
-    icon: "/netlify.svg",
+    icon: "/portfolio-v2/netlify.svg",
   },
   {
     name: "Vercel",
-    icon: "/vercel.svg",
+    icon: "/portfolio-v2/vercel.svg",
   },
   {
     name: "Railway",
-    icon: "/railway.svg",
+    icon: "/portfolio-v2/railway.svg",
   },
   {
     name: "Render",
-    icon: "/render.svg",
+    icon: "/portfolio-v2/render.svg",
   },
   {
     name: "AlwaysData",
-    icon: "/alwaysdata.svg",
+    icon: "/portfolio-v2/alwaysdata.svg",
   },
   {
     name: "Git",
-    icon: "/git.svg",
+    icon: "/portfolio-v2/git.svg",
   },
   {
     name: "Cloudinary",
-    icon: "/cloudinary.svg",
+    icon: "/portfolio-v2/cloudinary.svg",
   },
   {
     name: "Playwright",
-    icon: "/playwright.svg",
+    icon: "/portfolio-v2/playwright.svg",
   },
   {
     name: "Puppeteer",
-    icon: "/puppeteer.svg",
+    icon: "/portfolio-v2/puppeteer.svg",
   },
 ];

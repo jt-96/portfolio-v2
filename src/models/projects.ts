@@ -3,7 +3,7 @@ import { Project } from "./project.model";
 export const projects: Project[] = [
   {
     id: 0,
-    imageSrc: "/km12.png",
+    imageSrc: "/portfolio-v2/km12.png",
     title: "Kilometro 12 - Market",
     description:
       "E-commerce for fruits and vegetables, including account creation, cart functionality, multiple filtering for available products, several payment methods, like Mercado Pago, admin control for orders, etc.",
@@ -13,7 +13,7 @@ export const projects: Project[] = [
   },
   {
     id: 1,
-    imageSrc: "/m-bot.png",
+    imageSrc: "/portfolio-v2/m-bot.png",
     title: "M-Bot",
     description:
       "A simple bot for personal use, can play music, add Youtube links or query them, add playlists, skip, shuffle songs and change volume, for Discord.",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    imageSrc: "/toDoListApp.png",
+    imageSrc: "/portfolio-v2/toDoListApp.png",
     title: "ToDo List App",
     description:
       "Web app for a ToDo List, allowing you to add and delete chores, saving them in an instance of MongoDB Cloud.",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    imageSrc: "/keeperApp.png",
+    imageSrc: "/portfolio-v2/keeperApp.png",
     title: "Keeper App",
     description:
       "Save your notes in KeeperApp, you can add and delete entries easily, loosely based on Google Keep.",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    imageSrc: "/digitalAgency.png",
+    imageSrc: "/portfolio-v2/digitalAgency.png",
     title: "Digital Agency",
     description: "Mockup page about a digital agency made in Bootstrap.",
     siteLink: "https://jt-96.github.io/digitalAgency-Mockup",
