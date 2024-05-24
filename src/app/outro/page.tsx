@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { AuroraBackground } from "@/components/aurora/aurora.component";
+import { variants } from "@/models/anim";
 import LinkedInImage from "@/assets/linkedin.svg";
 import GitHubImage from "@/assets/github.svg";
 import CVImage from "@/assets/cv.svg";
@@ -11,13 +12,9 @@ function Outro() {
     <>
       <AuroraBackground>
         <motion.div
-          initial={{ opacity: 0.0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
+          initial={variants.start}
+          whileInView={variants.onView}
+          transition={variants.showAurora.transition}
           className="relative px-4 flex flex-col h-full justify-center"
         >
           <div className="flex flex-col items-center justify-center grow">

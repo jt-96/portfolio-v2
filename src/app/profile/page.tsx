@@ -3,17 +3,15 @@ import { InfiniteMovingCards } from "@/components/movingCards/cards.component";
 import { frontStack } from "@/models/front";
 import { backStack } from "@/models/back";
 import { others } from "@/models/other";
+import { variants } from "@/models/anim";
 
 function Profile() {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          ease: "easeInOut",
-        }}
+        initial={variants.start}
+        whileInView={variants.onView}
+        transition={variants.showPara.transition}
       >
         <h2 className="text-3xl my-5 text-center">Profile</h2>
         <InfiniteMovingCards

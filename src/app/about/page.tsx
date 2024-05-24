@@ -1,15 +1,13 @@
 import { motion } from "framer-motion";
+import { variants } from "@/models/anim";
 
 function About() {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          ease: "easeInOut",
-        }}
+        initial={variants.start}
+        whileInView={variants.onView}
+        transition={variants.showPara.transition}
       >
         <h2 className="text-2xl md:text-3xl xl:text-4xl">
           Something about me.
@@ -17,12 +15,9 @@ function About() {
       </motion.div>
       <section className="my-2 mx-5 md:mx-10 lg:mx-20 xl:mx-32 2xl:mx-72">
         <motion.div
-          initial={{ opacity: 0.0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.4,
-            ease: "easeInOut",
-          }}
+          initial={variants.start}
+          whileInView={variants.onView}
+          transition={variants.showPara.transition}
         >
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
             I was always interested about computers & games since I was a kid,
@@ -43,12 +38,9 @@ function About() {
         </motion.div>
         <br />
         <motion.div
-          initial={{ opacity: 0.0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.4,
-            ease: "easeInOut",
-          }}
+          initial={variants.start}
+          whileInView={variants.onView}
+          transition={variants.showPara.transition}
         >
           <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
             Considering what my parents would say 'obsession' about computers,

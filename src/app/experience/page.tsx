@@ -1,15 +1,13 @@
 import { motion } from "framer-motion";
+import { variants } from "@/models/anim";
 
 function Experience() {
   return (
     <>
       <motion.div
-        initial={{ opacity: 0.0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          ease: "easeInOut",
-        }}
+        initial={variants.start}
+        whileInView={variants.onView}
+        transition={variants.showPara.transition}
       >
         <h1 className="text-3xl my-10 text-center">Experience</h1>
         <div className="bg-gradient-to-r from-slate-800 to-slate-900 rounded-2xl border border-b-0 border-slate-700 mx-5 p-2 md:m-10 2xl:px-8 2xl:py-4 2xl:my-5">
