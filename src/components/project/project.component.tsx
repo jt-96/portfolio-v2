@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { Project } from "@/models/project.model";
+import { variants } from "@/models/anim";
 import SiteIcon from "@/assets/site.svg";
 import GitHubIcon from "@/assets/github.svg";
 
@@ -12,12 +13,9 @@ type Props = {
 function ProjectComponent({ myProject }: Props) {
   return (
     <motion.div
-      initial={{ opacity: 0.0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 0.4,
-        ease: "easeInOut",
-      }}
+      initial={variants.start}
+      whileInView={variants.onView}
+      transition={variants.showPara.transition}
     >
       <div className="my-2 mx-5 lg:flex justify-center">
         <div className="flex justify-center items-center align-center p-5 lg:w-1/2 xl:w-1/3 2xl:w-1/4">

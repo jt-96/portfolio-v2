@@ -1,6 +1,7 @@
 "use client";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { variants } from "@/models/anim";
 
 function Intro() {
   const [titles, setTitles] = useState<string[]>([
@@ -32,11 +33,12 @@ function Intro() {
 
   return (
     <div className="h-screen flex flex-col justify-center">
-      <div className="mb-96 2xl:mb-[35rem]">
+      <div className="mb-96 2xl:mb-[20rem]">
         <motion.div
-          initial={{ opacity: 0.0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ ease: "easeInOut", delay: 0.3, duration: 0.4 }}
+          variants={variants}
+          initial={variants.start}
+          whileInView={variants.onView}
+          transition={variants.showTitle.transition}
         >
           <h1 className="text-2xl text-center md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-7xl">
             Hi, I'm Jonathan Torrico
@@ -44,15 +46,12 @@ function Intro() {
         </motion.div>
         <AnimatePresence mode="wait">
           <motion.div
+            variants={variants}
             key={currentTitle}
-            initial={{ opacity: 0.0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            exit={{
-              opacity: 0.0,
-              y: -40,
-              transition: { delay: 0.0, duration: 0.3 },
-            }}
-            transition={{ ease: "easeInOut", delay: 0.3, duration: 0.4 }}
+            initial={variants.start}
+            whileInView={variants.onView}
+            exit={variants.exitShowTitle}
+            transition={variants.showTitle.transition}
           >
             <p className="text-lg text-center md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl">
               {currentTitle}

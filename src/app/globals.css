@@ -31,4 +31,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #ecfff680;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #3a709498;
+    border-radius: 100vh;
+    border: 3px solid #ffffff67;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0099ff98;
+  }
 }
