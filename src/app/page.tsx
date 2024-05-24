@@ -1,14 +1,10 @@
 "use client";
 import dynamic from "next/dynamic";
-import Intro from "./intro/page";
 import About from "./about/page";
-import Profile from "./profile/page";
 import Experience from "./experience/page";
-import Projects from "./projects/page";
 import "@/app/globals.css";
-import Outro from "./outro/page";
 
-const DynamicMeteors = dynamic(
+const LazyMeteors = dynamic(
   () =>
     import("@/components/meteors/meteors.component").then(
       (module) => module.Meteors
@@ -16,19 +12,24 @@ const DynamicMeteors = dynamic(
   { ssr: false }
 );
 
+const LazyIntro = dynamic(() => import("@/app/intro/page"));
+const LazyProfile = dynamic(() => import("@/app/profile/page"));
+const LazyProjects = dynamic(() => import("@/app/projects/page"));
+const LazyOutro = dynamic(() => import("@/app/outro/page"));
+
 export default function Home() {
   return (
     <>
       <div className="sticky top-0">
-        <DynamicMeteors />
+        <LazyMeteors />
       </div>
       <div className="relative flex flex-col justify-center items-center">
-        <Intro />
+        <LazyIntro />
         <About />
-        <Profile />
+        <LazyProfile />
         <Experience />
-        <Projects />
-        <Outro />
+        <LazyProjects />
+        <LazyOutro />
       </div>
     </>
   );
