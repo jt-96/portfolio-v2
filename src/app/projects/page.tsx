@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import { projects } from "@/models/projects";
 import { variants } from "@/models/anim";
