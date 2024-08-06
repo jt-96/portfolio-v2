@@ -9,6 +9,7 @@ function Intro() {
     "Printer Fixer",
     "Gamer",
     "Future Funk & City Pop Enthusiast",
+    "Court Mage to the Nest of Thorns",
   ]);
   const [currentTitle, setCurrentTitle] = useState<string>(titles[0]);
 
@@ -53,7 +54,7 @@ function Intro() {
             exit={variants.exitShowTitle}
             transition={variants.showTitle.transition}
           >
-            <p className="text-lg text-center md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl">
+            <p className="text-lg text-center md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl">
               {currentTitle}
             </p>
           </motion.div>
