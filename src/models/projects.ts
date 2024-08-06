@@ -13,7 +13,7 @@ export const projects: Project[] = [
   },
   {
     id: 1,
-    imageSrc: "/porfolio-v2/km12.png",
+    imageSrc: "/portfolio-v2/km12.png",
     title: "Kilometro 12 Market",
     description:
       "E-commerce for fruits and vegetables, including account creation, cart functionality, multiple filtering for available products, several payment methods, like Mercado Pago, admin control for orders, etc.",
