@@ -2,6 +2,10 @@ import { Tech } from "./tech.model";
 
 export const frontStack: Tech[] = [
   {
+    name: "Webflow",
+    icon: "/portfolio-v2/webflow.svg",
+  },
+  {
     name: "React",
     icon: "/portfolio-v2/react.svg",
   },

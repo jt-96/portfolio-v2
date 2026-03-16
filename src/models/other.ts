@@ -2,6 +2,10 @@ import { Tech } from "./tech.model";
 
 export const others: Tech[] = [
   {
+    name: "n8n",
+    icon: "/portfolio-v2/n8n.svg",
+  },
+  {
     name: "Netlify",
     icon: "/portfolio-v2/netlify.svg",
   },
