@@ -7,7 +7,7 @@ function Intro() {
   const [titles, setTitles] = useState<string[]>([
     "Full Stack Dev",
     "Automation Dev",
-    "Pentester",
+    "Web Pentester",
     "Printer Fixer",
     "Gamer",
     "Future Funk & City Pop Enthusiast",
