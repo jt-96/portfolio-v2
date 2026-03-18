@@ -2,6 +2,7 @@
 import dynamic from "next/dynamic";
 import About from "@/app/about/page";
 import Experience from "@/app/experience/page";
+import Certifications from "./certifications/page";
 import "@/app/globals.css";
 
 const LazyMeteors = dynamic(
@@ -28,6 +29,7 @@ export default function Home() {
         <About />
         <LazyProfile />
         <Experience />
+        <Certifications />
         <LazyProjects />
         <LazyOutro />
       </div>
