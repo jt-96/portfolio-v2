@@ -15,6 +15,7 @@ function About() {
         </h2>
       </motion.div>
       <section className="my-2 mx-5 md:mx-10 lg:mx-20 xl:mx-32 2xl:mx-72">
+        <br />
         <motion.div
           initial={variants.start}
           whileInView={variants.onView}
