@@ -25,7 +25,7 @@ function Experience() {
           <div className="flex flex-col justify-center items-center align-center my-3 mx-5">
             <ul className="text-xl marker:text-slate-500">
               <li className="list-disc my-2">
-                Worked alongside CEO and Production Assistant to update the homepage to Webflow
+                Worked alongside CEO and Production Assistant to update the homepage to Webflow.
               </li>
               <li className="list-disc my-2">
                 Ported all data to Webflow CMS, improved general site performance and polished look and feel, as well as usability.
