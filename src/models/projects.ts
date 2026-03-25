@@ -3,6 +3,25 @@ import { Project } from "./project.model";
 export const projects: Project[] = [
   {
     id: 0,
+    imageSrc: "/portfolio-v2/waypoint.png",
+    title: "M-Bot v2",
+    description: "The second entry to M-Bot, a locally deployed Music Bot for Discord made to play music when chilling with my friends, this one is made with Moonlink.js and Nodelink.js",
+    siteLink: "https://github.com/jt-96/m-bot",
+    repoLink: null,
+    year: 2026,
+  },
+  {
+    id: 1,
+    imageSrc: "/portfolio-v2/waypoint.png",
+    title: "Waypoint",
+    description:
+      "WAYPOINT's home site, one of the projects that I worked on, it's changed a bit since then but it's mostly just the intro, the general structure, styling, all blogs and pages were made from scratch, ported to Webflow, from an existing but incomplete site using another web stack.",
+    siteLink: "https://www.waypoint.la",
+    repoLink: null,
+    year: 2025,
+  },
+  {
+    id: 2,
     imageSrc: "/portfolio-v2/toDoBubble.png",
     title: "To-Do App - Bubble",
     description:
@@ -12,7 +31,7 @@ export const projects: Project[] = [
     year: 2024,
   },
   {
-    id: 1,
+    id: 3,
     imageSrc: "/portfolio-v2/km12.png",
     title: "Kilometro 12 Market",
     description:
@@ -22,7 +41,7 @@ export const projects: Project[] = [
     year: 2024,
   },
   {
-    id: 2,
+    id: 4,
     imageSrc: "/portfolio-v2/m-bot.png",
     title: "M-Bot",
     description:
@@ -32,7 +51,7 @@ export const projects: Project[] = [
     year: 2023,
   },
   {
-    id: 3,
+    id: 5,
     imageSrc: "/portfolio-v2/toDoListApp.png",
     title: "To-Do List App",
     description:
@@ -42,7 +61,7 @@ export const projects: Project[] = [
     year: 2022,
   },
   {
-    id: 4,
+    id: 6,
     imageSrc: "/portfolio-v2/keeperApp.png",
     title: "Keeper App",
     description:
@@ -52,7 +71,7 @@ export const projects: Project[] = [
     year: 2022,
   },
   {
-    id: 5,
+    id: 7,
     imageSrc: "/portfolio-v2/digitalAgency.png",
     title: "Digital Agency",
     description: "Mockup page about a digital agency made in Bootstrap.",
