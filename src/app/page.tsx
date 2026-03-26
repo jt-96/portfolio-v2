@@ -32,7 +32,7 @@ export default function Home() {
         <Experience />
         <Certifications />
         <LazyProjects />
-        <LazyAutomations />
+        {/* <LazyAutomations /> */}
         <LazyOutro />
       </div>
     </>
