@@ -3,7 +3,7 @@ import { Project } from "./project.model";
 export const projects: Project[] = [
   {
     id: 0,
-    imageSrc: "/portfolio-v2/waypoint.png",
+    imageSrc: "/portfolio-v2/mbotV2.png",
     title: "M-Bot v2",
     description: "The second entry to M-Bot, a locally deployed Music Bot for Discord made to play music when chilling with my friends, this one is made with Moonlink.js and Nodelink.js",
     siteLink: "https://github.com/jt-96/m-bot",
