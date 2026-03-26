@@ -57,7 +57,7 @@ body {
   @-moz-document url-prefix() {
     * {
       scrollbar-width: thin;
-      scrollbar-color: #ecfff680 #3a709498;
+      scrollbar-color: #3a709498 #ecfff680;
     }
   }
 }
