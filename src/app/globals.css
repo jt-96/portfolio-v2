@@ -32,6 +32,7 @@ body {
     text-wrap: balance;
   }
 
+  /* Chromium Scroll */
   ::-webkit-scrollbar {
     width: 5px;
     height: 10px;
@@ -50,5 +51,13 @@ body {
 
   ::-webkit-scrollbar-thumb:hover {
     background: #0099ff98;
+  }
+
+  /* Firefox Scroll */
+  @-moz-document url-prefix() {
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #ecfff680 #3a709498;
+    }
   }
 }
