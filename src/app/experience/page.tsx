@@ -19,7 +19,7 @@ function Experience() {
             </h2>
           </div>
           <div className="flex flex-row mx-5 justify-between align-center items-center md:flex-row md:mx-5">
-            <h3 className="text-md lg:text-2xl">Frontend Developer - Contractor</h3>
+            <h3 className="text-md lg:text-2xl">Full Stack Developer - Contractor</h3>
             <h3 className="text-md lg:text-2xl">September 2024 - February 2025</h3>
           </div>
           <div className="flex flex-col justify-center items-center align-center my-3 mx-5">
