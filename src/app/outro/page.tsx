@@ -20,7 +20,7 @@ function Outro() {
               Let&apos;s talk.
             </h1>
             <div className="flex flex-col items-center md:flex-row md:w-2/3 xl:w-full">
-              <Link href="/Jonathan Torrico -  ENG CV.pdf" target="_blank">
+              <Link href="/Jonathan Torrico - CV.pdf" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
                     src="/portfolio-v2/cv.svg"
@@ -63,7 +63,7 @@ function Outro() {
           </div>
           <div className="flex justify-center align-center items-center">
             <p className="text-center p-5">
-              Mendoza &bull; Argentina &bull; 2024
+              Mendoza &bull; Argentina &bull; 2026
             </p>
           </div>
         </motion.div>
