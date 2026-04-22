@@ -15,6 +15,7 @@ function About() {
         </h2>
       </motion.div>
       <section className="my-2 mx-5 md:mx-10 lg:mx-20 xl:mx-32 2xl:mx-72">
+        <br />
         <motion.div
           initial={variants.start}
           whileInView={variants.onView}
@@ -59,6 +60,20 @@ function About() {
             after getting my hands on everything else, I decided that this was
             the path I should follow, so here we are!
           </p>
+          <br />
+          <motion.div
+            initial={variants.start}
+            whileInView={variants.onView}
+            transition={variants.showPara.transition}
+          >
+            <p className="text-lg mb-2 md:text-2xl xl:text-3xl">
+              Lately, I'm been checking web pentesting and find it pretty cool
+              and interesting, automation using n8n, a no/low-code tool for
+              process automation, aswell as Webflow for no/low-code web
+              development, so I'm also looking for opportunities in those areas
+              as well, in hopes to expand my knowledge and expertise.
+            </p>
+          </motion.div>
         </motion.div>
       </section>
     </>

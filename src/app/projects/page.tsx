@@ -12,7 +12,7 @@ function Projects() {
         whileInView={variants.onView}
         transition={variants.showPara.transition}
       >
-        <h1 className="text-3xl my-10">My Projects</h1>
+        <h1 className="text-3xl my-10">Projects</h1>
       </motion.div>
       <div className="flex flex-col">
         {projects.map((project) => (
