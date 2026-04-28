@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     id: 1,
     imageSrc: "/portfolio-v2/waypoint.png",
-    title: "Waypoint",
+    title: "WAYPOINT",
     description:
       "WAYPOINT's home site, one of the projects that I worked on, it's changed a bit since then but it's mostly just the intro, the general structure, styling, all blogs and pages were made from scratch, ported to Webflow, from an existing but incomplete site using another web stack.",
     siteLink: "https://www.waypoint.la",
