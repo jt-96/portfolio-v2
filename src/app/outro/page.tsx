@@ -19,7 +19,7 @@ function Outro() {
             <h1 className="m-5 text-2xl md:text-3xl xl:text-4xl">
               Let&apos;s talk.
             </h1>
-            <div className="flex flex-col items-center md:flex-row md:w-2/3 xl:w-full">
+            <div className="flex flex-col items-center lg:flex-row">
               <Link href="/Jonathan Torrico - CV.pdf" target="_blank">
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
                   <Image
@@ -28,7 +28,7 @@ function Outro() {
                     width={64}
                     height={64}
                     color="#000000"
-                    className="p-5 md:p-2 2xl:p-2"
+                    className="p-2"
                   />
                 </div>
               </Link>
@@ -43,7 +43,7 @@ function Outro() {
                     width={64}
                     height={64}
                     color="#000000"
-                    className="p-5 md:p-2 2xl:p-2"
+                    className="p-2"
                   />
                 </div>
               </Link>
@@ -55,7 +55,7 @@ function Outro() {
                     width={64}
                     height={64}
                     color="#000000"
-                    className="p-5 md:p-2 2xl:p-2"
+                    className="p-2"
                   />
                 </div>
               </Link>
