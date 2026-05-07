@@ -25,7 +25,7 @@ function ProjectComponent({ myProject }: Props) {
           />
         </div>
         <div className="flex flex-col mt-5 justify-center items-center lg:w-1/2 xl:w-1/3 2xl:w-1/4 md:justify-between">
-          <h2 className="text-2xl mb-5">{myProject.title}</h2>
+          <h2 className="text-xl mb-5 md:text-2xl">{myProject.title}</h2>
           <p className="text-sm text-center md:text-xl lg:text-left">
             {myProject.description}
           </p>
