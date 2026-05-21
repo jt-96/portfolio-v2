@@ -33,7 +33,7 @@ function Outro() {
                 </div>
               </Link>
               <Link
-                href="https://ar.linkedin.com/in/jonathan-torrico"
+                href="https://linkedin.com/in/jonathan-torrico"
                 target="_blank"
               >
                 <div className="my-5 flex justify-center items-center border border-slate-700 rounded-2xl w-64 h-24 md:mx-2">
