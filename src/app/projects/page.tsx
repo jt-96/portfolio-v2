@@ -15,7 +15,7 @@ function Projects() {
         <h1 className="text-3xl my-10">Projects</h1>
       </motion.div>
       <div className="flex flex-col">
-        {projects.reverse().map((project) => (
+        {projects.toReversed().map((project) => (
           <ProjectComponent key={project.id} myProject={project} />
         ))}
       </div>
