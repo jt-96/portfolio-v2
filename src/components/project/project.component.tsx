@@ -32,7 +32,7 @@ function ProjectComponent({ myProject }: Props) {
           <div className="flex flex-row justify-between items-center py-5 px-5 w-full lg:px-0">
             <div className="flex">
               {myProject.siteLink ? (
-                <Link href={myProject.siteLink}>
+                <Link href={myProject.siteLink} target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/portfolio-v2/site.svg"
                     alt="Visit Site Icon"
@@ -44,7 +44,7 @@ function ProjectComponent({ myProject }: Props) {
               ) : null}
 
               {myProject.repoLink ? (
-                <Link href={myProject.repoLink}>
+                <Link href={myProject.repoLink} target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/portfolio-v2/github.svg"
                     alt="Visit GitHub Repo"
